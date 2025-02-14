@@ -58,7 +58,7 @@ const ButtonsBox = () => {
               </button>
             </div>
           </div>
-          <div className="button_pair ms-3">
+          <div className="button_pair ms-1 ms-sm-3">
             <div className="btn-player">
               <button className="button1" onClick={minusSong}>
                 <svg

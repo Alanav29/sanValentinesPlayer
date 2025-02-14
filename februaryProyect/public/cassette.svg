@@ -43,6 +43,9 @@ viewBox="0 0 13869.34 16714.43"
     .fnt0 {font-weight:normal;font-size:407.14px;font-family:'Consolas'}
    ]]>
   </style>
+   <clipPath id="id0">
+    <rect x="591.41" y="2021.01" width="12556.82" height="8387.47"/>
+   </clipPath>
  </defs>
  <g id="Capa_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
@@ -51,14 +54,14 @@ viewBox="0 0 13869.34 16714.43"
   <rect class="fil2" x="1498.48" y="10411.56" width="10872.38" height="6058.59"/>
   <rect class="fil3" x="1498.48" y="10411.56" width="10872.38" height="2172.69"/>
   <rect class="fil4 str0" x="977.28" y="510.46" width="11914.78" height="1498.48" rx="186.38" ry="213.11"/>
-  <g id="_2478184551600">
+  <g id="_2477514951296">
    <rect class="fil0" x="11.31" y="11323.07" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
    <rect class="fil0" x="11.31" y="11678.91" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
    <rect class="fil0" x="11.31" y="12025.14" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
    <rect class="fil0" x="11.31" y="12380.99" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
    <rect class="fil0" x="11.31" y="12727.22" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
   </g>
-  <g id="_2478184551888">
+  <g id="_2477514954848">
    <rect class="fil0" x="12555.92" y="11323.07" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
    <rect class="fil0" x="12555.92" y="11678.91" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
    <rect class="fil0" x="12555.92" y="12025.14" width="1282.87" height="146.39" rx="100.68" ry="73.19"/>
@@ -74,5 +77,8 @@ viewBox="0 0 13869.34 16714.43"
   <text x="1720.03" y="12191.45"  class="fil6 fnt0">SAVE</text>
   <text x="3730.08" y="12191.45"  class="fil6 fnt0">LOAD</text>
   <text x="8928.87" y="10970.34"  class="fil6 fnt0">CASSETE PLAYER</text>
+  <g style="clip-path:url(#id0)">
+   <image x="591.41" y="2021.01" width="12556.82" height="8387.47" xlink:href="cassette_Images\cassette_ImgID1.png"/>
+  </g>
  </g>
 </svg>
