@@ -10,7 +10,7 @@ const ButtonsBox = () => {
   };
 
   const [audioSong, setAudioSong] = useState(
-    new Audio(`../../public/sounds/city.mp3`)
+    new Audio(`/sanValentinesPlayer/sounds/city.mp3`)
   );
   // Ruta al archivo de sonido
   const playFirstSong = () => {
@@ -28,14 +28,14 @@ const ButtonsBox = () => {
 
     setCurrentSong(currentSong + 1);
     audioSong.pause();
-    audioSong.src = `/sounds/${songs[currentSong]}.mp3`; // Ruta al archivo de sonido
+    audioSong.src = `/sanValentinesPlayer/sounds/${songs[currentSong]}.mp3`; // Ruta al archivo de sonido
     audioSong.play(); // Reproduce el sonido
   };
 
   const minusSong = () => {
     setCurrentSong(currentSong - 1);
     audioSong.pause();
-    audioSong.src = `/sounds/${songs[currentSong]}.mp3`; // Ruta al archivo de sonido
+    audioSong.src = `/sanValentinesPlayer/sounds/${songs[currentSong]}.mp3`; // Ruta al archivo de sonido
     audioSong.play(); // Reproduce el sonido
   };
   return (
