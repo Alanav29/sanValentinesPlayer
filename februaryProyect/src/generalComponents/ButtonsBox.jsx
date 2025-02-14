@@ -4,7 +4,7 @@ import "../styles/ButtonsBox.css";
 const ButtonsBox = () => {
   const [songs, setSongs] = useState(["dust", "city"]);
   const [currentSong, setCurrentSong] = useState(0);
-  const audioButton = new Audio("/sounds/click.mp3"); // Ruta al archivo de sonido
+  const audioButton = new Audio("/sanValentinesPlayer/sounds/click.mp3"); // Ruta al archivo de sonido
   const playSound = () => {
     audioButton.play(); // Reproduce el sonido
   };
