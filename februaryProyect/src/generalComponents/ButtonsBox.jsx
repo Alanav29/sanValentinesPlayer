@@ -94,24 +94,12 @@ const ButtonsBox = () => {
           <div className="button_pair ms-1 ms-sm-3">
             <div className="btn-player">
               <button className="button1" onClick={minusSong}>
-                <svg
-                  viewBox="0 -960 960 960"
-                  className="svg1"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M200-440v-80h560v80H200Z"></path>
-                </svg>
+                <i className="bi bi-skip-backward-fill fs-1"></i>
               </button>
             </div>
             <div className="btn-player">
               <button className="button2" onClick={plusSong}>
-                <svg
-                  viewBox="0 -960 960 960"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="svg2"
-                >
-                  <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"></path>
-                </svg>
+                <i className="bi bi-skip-forward-fill fs-1"></i>
               </button>
             </div>
           </div>
