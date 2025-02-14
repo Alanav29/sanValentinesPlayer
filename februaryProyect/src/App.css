@@ -548,9 +548,9 @@ body {
   }
 }
 
-@media (max-width: 500px) and (min-width: 384px) {
+@media (max-width: 500px) and (min-width: 360px) {
   .max-buttons-width {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .full-height {
@@ -1036,7 +1036,7 @@ body {
   }
 }
 
-@media (max-width: 384px) {
+@media (max-width: 359px) {
   .max-buttons-width {
     font-size: 8.5px;
   }
