@@ -4,11 +4,13 @@ import cassette from "../public/cassette.svg";
 
 function App() {
   return (
-    <div className="d-flex flex-column align-items-center m-5">
-      <div className="cassette-width">
-        <img src={cassette} alt="cassettePLayer" />
-      </div>
-      <div className="z-2 position-absolute mt-5 cassette-padding">
+    <div className="d-flex flex-column align-items-center full-height">
+      <img
+        src={cassette}
+        alt="cassettePLayer"
+        className="cassette-player-width"
+      />
+      <div className="z-2 position-absolute cassette-padding">
         <div className="cassette">
           <div className="top-tape">
             <div className="arrow-mark-container">

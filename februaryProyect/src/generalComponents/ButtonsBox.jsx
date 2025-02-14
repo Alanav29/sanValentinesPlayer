@@ -38,7 +38,7 @@ const ButtonsBox = () => {
   };
   return (
     <div>
-      <div className="main mt-5">
+      <div className="main mt-5 max-buttons-width">
         <div className="buttons d-flex flex-row">
           <div className="button_pair me-3">
             <div className="btn-player">
