@@ -2,7 +2,23 @@ import { useState } from "react";
 import "../styles/ButtonsBox.css";
 
 const ButtonsBox = () => {
-  const [songs, setSongs] = useState(["dust", "city"]);
+  const [songs, setSongs] = useState([
+    "city",
+    "babybemine",
+    "27",
+    "onemoretime",
+    "feelmylove",
+    "efimera",
+    "tofindyou",
+    "dust",
+    "labios",
+    "up",
+    "galactica",
+    "notalone",
+    "teregalo",
+    "justlike",
+    "mondo",
+  ]);
   const [currentSong, setCurrentSong] = useState(0);
   const audioButton = new Audio("/sanValentinesPlayer/sounds/click.mp3"); // Ruta al archivo de sonido
   const playSound = () => {
@@ -26,6 +42,14 @@ const ButtonsBox = () => {
   const plusSong = () => {
     console.log(currentSong + 1);
 
+    if (currentSong === songs.length - 1) {
+      setCurrentSong(0);
+      audioSong.pause();
+      audioSong.src = `/sanValentinesPlayer/sounds/${songs[0]}.mp3`; // Ruta al archivo de sonido
+      audioSong.play(); // Reproduce el sonido
+      return;
+    }
+
     setCurrentSong(currentSong + 1);
     audioSong.pause();
     audioSong.src = `/sanValentinesPlayer/sounds/${songs[currentSong]}.mp3`; // Ruta al archivo de sonido
@@ -33,6 +57,13 @@ const ButtonsBox = () => {
   };
 
   const minusSong = () => {
+    if (currentSong === 0) {
+      setCurrentSong(0);
+      audioSong.pause();
+      audioSong.src = `/sanValentinesPlayer/sounds/${songs[0]}.mp3`; // Ruta al archivo de sonido
+      audioSong.play(); // Reproduce el sonido
+      return;
+    }
     setCurrentSong(currentSong - 1);
     audioSong.pause();
     audioSong.src = `/sanValentinesPlayer/sounds/${songs[currentSong]}.mp3`; // Ruta al archivo de sonido
