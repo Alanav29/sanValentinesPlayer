@@ -9,7 +9,9 @@ const ButtonsBox = () => {
     audioButton.play(); // Reproduce el sonido
   };
 
-  const [audioSong, setAudioSong] = useState(new Audio(`/sounds/city.mp3`));
+  const [audioSong, setAudioSong] = useState(
+    new Audio(`../../public/sounds/city.mp3`)
+  );
   // Ruta al archivo de sonido
   const playFirstSong = () => {
     playSound();
